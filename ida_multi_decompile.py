@@ -337,7 +337,7 @@ class MultiDecompileDisassemblePlugin(idaapi.plugin_t):
                 idaapi.msg(f"Row {idx}: Insufficient data returned by get_chooser_data: {row_data}\n")
                 continue
 
-            idaapi.msg(f"Row {idx} data: {row_data}\n")
+            #idaapi.msg(f"Row {idx} data: {row_data}\n")
             address_str = row_data[2].strip()
             if not address_str:
                 idaapi.msg(f"Row {idx}: Empty address string\n")
