@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Multi Decompile/Disassemble Plugin** is a custom plugin for IDA Pro that allows users to decompile or disassemble multiple selected functions at once and display the results in a single, user-friendly window. The plugin provides syntax highlighting for both C (decompiled code) and assembly (disassembled code), supports multiple architectures, and includes features like text copying and window management.
+The **Multi Decompile/Disassemble Plugin** is a custom plugin for IDA Pro that allows users to decompile or disassemble multiple selected functions at once and display the results in a single, user-friendly window. The plugin provides syntax highlighting for both C (decompiled code) and assembly (disassembled code), supports multiple architectures, and includes features like text copying and window management. Available for IDA Pro 9.0 and greather.
 
 ### Features
 - **Decompile Multiple Functions**: Decompile selected functions into a single window with C syntax highlighting.
@@ -13,6 +13,11 @@ The **Multi Decompile/Disassemble Plugin** is a custom plugin for IDA Pro that a
 - **Copy to Clipboard**: A button to copy the entire content of the output window to the clipboard.
 - **Context Menu**: Right-click to copy selected text or select all text.
 - **Window Management**: Automatically reopens the output window if closed.
+
+### Appearance
+<img src="images/dec.png" width="300" alt="Decompile">
+<img src="images/dec.png" width="300" alt="Disassemble">
+
 
 ## Installation
 
@@ -68,6 +73,7 @@ The **Multi Decompile/Disassemble Plugin** is a custom plugin for IDA Pro that a
 - **Addresses** (e.g., `0x12345678`): Dark blue.
 
 ## Limitations
+- Requires the IDA Pro version >= 9.0
 - Requires the Hex-Rays Decompiler for decompilation to work. If the decompiler is unavailable, the plugin will log a message in the Output window.
 - Ctrl+C for copying text may conflict with IDA Pro's shortcuts. Use the "Copy to Clipboard" button or the context menu as a workaround.
 - Syntax highlighting supports common instructions and registers for the listed architectures but may not cover all possible instructions.
