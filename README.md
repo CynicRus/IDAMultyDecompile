@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Multi Decompile/Disassemble Plugin** is a custom plugin for IDA Pro that allows users to decompile or disassemble multiple selected functions at once and display the results in a single, user-friendly window. The plugin provides syntax highlighting for both C (decompiled code) and assembly (disassembled code), supports multiple architectures, and includes features like text copying and window management. Available for IDA Pro 9.0 and greather.
+The **Multi Decompile/Disassemble Plugin** is a custom plugin for IDA Pro that allows users to decompile or disassemble multiple selected functions at once and display the results in a single, user-friendly window. The plugin provides syntax highlighting for both C (decompiled code) and assembly (disassembled code), supports multiple architectures, and includes features like text copying and window management. Available for IDA Pro 9.0 or greather.
 
 ### Features
 - **Decompile Multiple Functions**: Decompile selected functions into a single window with C syntax highlighting.
