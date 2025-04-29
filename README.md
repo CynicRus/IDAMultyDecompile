@@ -16,7 +16,7 @@ The **Multi Decompile/Disassemble Plugin** is a custom plugin for IDA Pro that a
 
 ### Appearance
 <img src="images/dec.png" width="300" alt="Decompile">
-<img src="images/dec.png" width="300" alt="Disassemble">
+<img src="images/dis.png" width="300" alt="Disassemble">
 
 
 ## Installation
